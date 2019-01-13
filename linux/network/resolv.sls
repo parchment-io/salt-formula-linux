@@ -7,8 +7,8 @@
   - mode: 644
   - template: jinja
   - follow_symlinks: false
-  - require:
-    - service: resolvconf_service
+#  - require:
+#    - service: resolvconf_service
 
 #resolvconf_service:
 #  service.dead:
