@@ -10,9 +10,9 @@
   - require:
     - service: resolvconf_service
 
-resolvconf_service:
-  service.dead:
-    - name: resolvconf
-    - enable: false
+#resolvconf_service:
+#  service.dead:
+#    - name: resolvconf
+#    - enable: false
 
 {%- endif %}
